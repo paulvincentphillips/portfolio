@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
@@ -11,8 +11,8 @@ body {
 }
 
 @font-face {
-    font-family: Poppins;
-    src: url(Poppins-Bold.ttf);
+  font-family: Poppins;
+  src: url(Poppins-Bold.ttf);
 }
 
 div {
@@ -32,7 +32,7 @@ a {
 }
 
 .emailHeader {
-    padding-top: 55px;
+  padding-top: 55px;
 }
 
 .emailLink {
@@ -42,4 +42,30 @@ a {
 
 span {
   font-size: 1.5em;
+}
+
+@media screen and (max-width: 822px) {
+  body {
+    background-size: 50%;
+  }
+
+  div {
+    padding-top: 360px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  a {
+    font-size: 1.2em;
+  }
+
+  .emailHeader {
+    padding-top: 0;
+  }
+
+  .emailLink {
+    margin-bottom: 0;
+  }
 }
