@@ -52,7 +52,7 @@ span {
 
 @media screen and (max-width: 822px) {
   body {
-    background-size: 47%;
+    background-size: 45%;
     text-align: center;
   }
 
@@ -83,5 +83,4 @@ span {
   span {
     font-size: 1em;
   }
-  
 }
