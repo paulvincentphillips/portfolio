@@ -9,7 +9,6 @@ body {
   text-align: center;
   background-image: url("desktop.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .backgroundDiv {
@@ -159,6 +158,10 @@ div.body button {
 }
 
 @media screen and (max-width: 822px) {
+  body {
+    background-size: 100%;
+  }
+
   .backgroundDiv {
     background-size: 130%;
     background-position: right 100px top -40px;
@@ -174,7 +177,7 @@ div.body button {
     font-size: 2em;
   }
 
-  h2{
+  h2 {
     font-size: 1.2em;
     margin-top: 5px;
   }
@@ -185,7 +188,7 @@ div.body button {
   }
 
   a {
-    font-size: .9em;
+    font-size: 0.9em;
   }
 
   .emailHeader {
@@ -197,7 +200,7 @@ div.body button {
   }
 
   span {
-    font-size: .9em;
+    font-size: 0.9em;
   }
 
   .githubLogo {
@@ -205,7 +208,7 @@ div.body button {
     width: 30px;
   }
 
-  .githubLogoPortfolio{
+  .githubLogoPortfolio {
     margin-top: 0;
     width: 40px;
   }
@@ -222,8 +225,8 @@ div.body button {
     width: 300px;
   }
 
-  .projectDescription{
-    font-size: .9em !important;
+  .projectDescription {
+    font-size: 0.9em !important;
   }
 
   .pumpspyLogo {
@@ -231,7 +234,7 @@ div.body button {
     margin-left: 60px;
   }
 
-  .imageContainer{
+  .imageContainer {
     margin-top: 10px;
   }
 }
