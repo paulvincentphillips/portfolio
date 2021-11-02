@@ -79,11 +79,11 @@ button:focus {
   outline: none;
 }
 .box {
-  width: 750px;
+  width: 700px;
   background: #008284;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 49%;
   transform: translate(-50%, -50%);
   padding: 1px;
 }
@@ -92,7 +92,7 @@ button:focus {
   background: #008284;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 49%;
   transform: translate(-50%, -50%);
   padding: 1px;
 }
@@ -133,6 +133,7 @@ div.body {
   height: 100%;
   width: calc(100% - 34px);
   display: inline-block;
+  border: 3px #bec2c1 solid;
   border-bottom: 8px #bec2c1 solid;
   border-left: 8px #bec2c1 solid;
   border-right: 8px #bec2c1 solid;
@@ -158,13 +159,13 @@ div.body button {
 
 @media screen and (max-width: 822px) {
   .backgroundDiv {
-    background-size: 125%;
+    background-size: 130%;
     background-position: right 100px top -40px;
     height: 100vh;
   }
 
   .box {
-    width: 325px;
+    width: 300px;
     padding: 1px;
   }
 
@@ -173,7 +174,8 @@ div.body button {
   }
 
   h2{
-    font-size: 1em;
+    font-size: 1.2em;
+    margin-top: 5px;
   }
 
   h3 {
