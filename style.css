@@ -85,7 +85,6 @@ button:focus {
   top: 50%;
   left: 49%;
   transform: translate(-50%, -50%);
-  padding: 1px;
 }
 .portfolioBox {
   width: 900px;
@@ -94,7 +93,6 @@ button:focus {
   top: 50%;
   left: 49%;
   transform: translate(-50%, -50%);
-  padding: 1px;
 }
 
 div.title {
@@ -133,7 +131,6 @@ div.body {
   height: 100%;
   width: calc(100% - 34px);
   display: inline-block;
-  border: 3px #bec2c1 solid;
   border-bottom: 8px #bec2c1 solid;
   border-left: 8px #bec2c1 solid;
   border-right: 8px #bec2c1 solid;
@@ -170,7 +167,6 @@ div.body button {
 
   .box {
     width: 300px;
-    padding: 1px;
   }
 
   h1 {
