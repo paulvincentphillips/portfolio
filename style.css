@@ -3,12 +3,17 @@
 }
 
 body {
-  background-image: url("desktop.jpg");
-  background-repeat: no-repeat;
   background-color: #008284;
   font-family: "Poppins", sans-serif;
   color: white;
   text-align: center;
+}
+
+.backgroundDiv {
+  height: 100vh;
+  width: 100%;
+  background-image: url("desktop.jpg");
+  background-repeat: no-repeat;
 }
 
 @font-face {
@@ -16,19 +21,27 @@ body {
   src: url(Poppins-Bold.ttf);
 }
 
-div {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.pumpspyLogo {
+  width: 120px;
+  margin-left: 80px;
+}
+
+.paragraphDiv {
   width: 100%;
+  margin: auto;
 }
 
 h1 {
-  color: white;
   font-size: 6em;
+}
+
+h2 {
+  font-size: 3.5em;
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin-bottom: 20px;
 }
 
 a {
@@ -37,8 +50,15 @@ a {
   text-decoration: none;
 }
 
+.projectDescription {
+  margin-top: 12px;
+  font-size: 1.1em !important;
+}
+
 .emailHeader {
   padding-top: 55px;
+  font-size: 2em;
+  margin-bottom: 0;
 }
 
 .emailLink {
@@ -50,26 +70,119 @@ span {
   font-size: 1.5em;
 }
 
+.githubLogo {
+  margin-top: 20px;
+}
+
+/*windows 95 window css */
+button:focus {
+  outline: none;
+}
+.box {
+  width: 750px;
+  background: #008284;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1px;
+}
+.portfolioBox {
+  width: 900px;
+  background: #008284;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1px;
+}
+
+div.title {
+  height: 18px;
+  width: 100%;
+  background: #000080;
+  color: #fff;
+  border: 3px #bec2c1 solid;
+}
+img.title {
+  float: left;
+}
+p.title {
+  margin: 2px 0 0 1px;
+  float: left;
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 11px;
+}
+.title button {
+  margin: 2px 2px 2px 0;
+  float: right;
+  width: 20px;
+  height: 13.5px;
+  background: #c0c0c0;
+  border-width: 1px;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  padding: 0;
+  font-size: 9px;
+  font-weight: bold;
+  font-family: Tahoma;
+  text-align: center;
+}
+div.body {
+  padding: 13px 12px 12px;
+  height: 100%;
+  width: calc(100% - 34px);
+  display: inline-block;
+  border-bottom: 8px #bec2c1 solid;
+  border-left: 8px #bec2c1 solid;
+  border-right: 8px #bec2c1 solid;
+}
+div.body p {
+  font-family: "MS Sans Serif";
+  font-size: 11px;
+}
+div.body button {
+  font-family: "MS Sans Serif";
+  font-size: 11px;
+  outline: 1px solid #000000;
+  background: #c0c0c0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  padding: 4px 10px;
+  margin: 20px auto 3px;
+  display: block;
+  position: relative;
+  bottom: 0px;
+}
+
 @media screen and (max-width: 822px) {
-  body {
-    background-size: 45%;
-    text-align: center;
+  .backgroundDiv {
+    background-size: 125%;
+    background-position: right 100px top -40px;
+    height: 100vh;
   }
 
-  div {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  .box {
+    width: 325px;
+    padding: 1px;
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2em;
+  }
+
+  h2{
+    font-size: 1em;
+  }
+
+  h3 {
+    font-size: 0.9em;
+    margin-bottom: 10px;
   }
 
   a {
-    font-size: 1em;
+    font-size: .9em;
   }
 
   .emailHeader {
@@ -77,10 +190,40 @@ span {
   }
 
   .emailLink {
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 
   span {
-    font-size: 1em;
+    font-size: .9em;
+  }
+
+  .githubLogo {
+    margin-top: 0;
+    width: 40px;
+  }
+
+  .pumpspyGif {
+    width: 95%;
+  }
+
+  .paragraphDiv {
+    width: 100%;
+  }
+
+  .portfolioBox {
+    width: 300px;
+  }
+
+  .projectDescription{
+    font-size: .9em !important;
+  }
+
+  .pumpspyLogo {
+    width: 70px;
+    margin-left: 60px;
+  }
+
+  .imageContainer{
+    margin-top: 10px;
   }
 }
